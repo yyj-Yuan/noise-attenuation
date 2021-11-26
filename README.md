@@ -1,5 +1,6 @@
 # noise-attenuation
-This program inclodes four functions, which can be run on MATLAB 2020b. 
+This program consists of four parts. They are main.m, FTR.m, initial.m, and adaptive.m. They can be run on MATLAB 2020b.
+The following is a list of functions:
 1. main.m is the main function
 2. FTR.m is the function of frequency division processing.
 3. initial.m is the function that builds the initial noise model.
