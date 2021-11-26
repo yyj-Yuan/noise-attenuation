@@ -75,6 +75,3 @@ figure
 imagesc(dx,dy,y0);title('Coherent noise');colormap(gray);xlabel('Trace number');ylabel('t (s)');
 figure
 imagesc(dx,dy,data-y0);title('Denoised data');colormap(gray);xlabel('Trace number');ylabel('t (s)');
-
-LNF_data=data-y0;
-save LNF_data LNF_data
